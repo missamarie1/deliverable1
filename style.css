@@ -1,0 +1,163 @@
+
+
+img {
+    border-radius:10px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight:600;
+}
+
+header {
+    background-color: #70a48b;
+    color:white;
+    text-align:center;
+    padding: 3em;
+    background-position-x: 100%;
+}
+
+#bigLogo {
+ display: block; 
+ margin-left: auto;
+ margin-right: auto;    
+}
+
+ul {
+    list-style-type: none; 
+    border: 1px solid white;
+    line-height: 50px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 15px;
+    position:relative;
+
+}
+
+li{
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+
+button.donation {
+    color:white;
+    background-color: #1f211c;
+    padding: 5px;
+    border-color: #1f211c;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+section.info {
+    padding: 20px; 
+    padding-bottom: 50px;
+}
+
+#detroit {
+    display: block;
+    color:white;
+    background-color:#70a48b;
+    border-radius: 10px;
+    border-color: #1f211c;
+   text-align: left;
+   align-items: left; 
+}
+
+button {
+    width:100%;
+    padding: 20px; 
+    font-weight: bold;
+}
+#gr {
+    display: block;
+    color:white;
+    background-color:#70a48b;
+    border-radius: 10px;
+    border-color: #1f211c;
+   text-align: left;
+   align-items: left; 
+   white-space: nowrap;
+} 
+
+section.friends {
+    padding: 20px; 
+    padding-bottom: 50px;
+}
+footer {
+    color: white;
+    background-color: #70a48b;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; 
+    height: 50px;
+}
+
+.miniLogo
+{
+    height: 50px;
+}
+
+table {
+    width: 100%;
+}
+td {
+    padding: 10px;
+}
+
+.container {
+    display:grid;
+    border-radius: 10px;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.header-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0; 
+    width: 100%;
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+   img{
+       border-radius: 10px;
+   }
+    #nav {
+        width: auto; 
+        height: auto;
+    }
+   
+    section.info {
+        max-width: 33%;
+        float: left;
+    }
+    section.friends {
+        max-width: 67%;
+        float: right; 
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -20px;
+        height: 80%;
+        width: 100%;
+    }
+    .container {
+        display:grid;
+        border-radius: 10px;
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
